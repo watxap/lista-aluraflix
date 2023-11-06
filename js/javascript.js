@@ -15,19 +15,20 @@ var imagenPeliculas = [
   */
 //agregar los títulos de las películas en formato texto
 
-
 var tituloPeliculas = [
   "Escuela de Rock","Arrival","El Jóven Manos de Tijera","Buscando a Nemo","Enter The Matrix","Rápidos y Furiosos X","El Señor de los Anillos: <br> La Comunidad Del Anillo"
 ]
 
 var i = 0;
 
-  while ((i < imagenPeliculas.length) & tituloPeliculas.length) {
-    document.write(
+while (i < imagenPeliculas.length){
+  if ((imagenPeliculas[i].endsWith('jpg')) || (imagenPeliculas[i].endsWith('jpeg'))){
+ 
+ document.write(
       "<div style='display: inline-block; margin:4%; color:white'>" +
         "<img src= " + imagenPeliculas[i] + ">" + 
         "<h5>" + tituloPeliculas[i] +"</h5>" +
         "</div>"
     );
     i++;
-  }
+ }else{alert('Error - Formatos de imagen admitidas: jpg/jpeg'); break; }}
