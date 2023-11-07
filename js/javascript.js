@@ -6,13 +6,6 @@ var imagenPeliculas = [
     "https://www.universalpictures.com.ar/tl_files/content/movies/fastx/poster/01.jpg",
   ]; 
 
-/*Reemplazar el for (original) con while 
-  for (var i = 0; i < imagenesPeliculas.length; i++) {
-    document.write("<img src=" + imagenesPeliculas[i] + ">");
-  }
-  */
-//agregar los títulos de las películas en formato texto
-
 var tituloPeliculas = [
   "Escuela de Rock","Arrival","El Jóven Manos de Tijera","Buscando a Nemo","Rápidos y Furiosos X"
 ]
