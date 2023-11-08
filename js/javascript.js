@@ -38,10 +38,24 @@ agregarPeliculas (
   "https://www.youtube.com/watch?v=TBHIO60whNw"
 );
 
+agregarPeliculas (
+  "Pandillas de Nueva York",
+  "https://pics.filmaffinity.com/Gangs_of_New_York-958873903-large.jpg",
+  "https://www.youtube.com/watch?v=qHVUPri5tjA"
+  );
+
+
+agregarPeliculas (
+  "La Película de LEGO",
+  "https://www.originalfilmart.com/cdn/shop/products/lego_movie_2014_advance_original_film_art_5000x.jpg",
+  "https://www.youtube.com/watch?v=fZ_JOBCLF-I"
+  );
+
+
 while (i < posterPeliculas.length){
    
   document.write(
-      `<div style='display: inline-block; margin:2%; color:white'><a href=${trailerPeliculas[i]} target="_blank"><img src="${posterPeliculas[i]}"></a><p>${tituloPeliculas[i]}</p></div>`
+      `<div style='display: inline-block; margin:2%; color:white'><a href=${trailerPeliculas[i]} target="_blank"><img src="${posterPeliculas[i]}"></a><p style="font-family: Arial;letter-spacing: -1px">${tituloPeliculas[i]}</p></div>`
       );
       i++;
    }
