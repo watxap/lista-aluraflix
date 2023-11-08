@@ -10,6 +10,9 @@ var tituloPeliculas = [
   "Escuela de Rock","Arrival","El Jóven Manos de Tijera","Buscando a Nemo","Rápidos y Furiosos X"
 ]
 
+//aprovechar funcionalidad y agregar variable tituloPeliculas
+imagenPeliculas.push('https://lumiere-a.akamaihd.net/v1/images/p_insideout_19751_af12286c.jpeg', 'https://cdn.shopify.com/s/files/1/1057/4964/products/harry-potter-and-the-chamber-of-secrets-vintage-movie-poster-original-1-sheet-27x41.jpg');
+
 var i = 0;
 
 while (i < imagenPeliculas.length){
