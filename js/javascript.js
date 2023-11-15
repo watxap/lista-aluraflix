@@ -4,9 +4,12 @@ var tituloPeliculas = [];
 
 var trailerPeliculas = [];
 
+//Se agregan arrays donde almacenar más datos de las películas (Desafío 1)
+
 var i = 0;
 
 function agregarPeliculas (tituloPelicula,posterPelicula,trailerPelicula) {
+//Condiciones: Que no se repitan los títulos y que solo admita unos tipos de formatos (Desafío 2)
   if (
     !tituloPeliculas.includes(tituloPelicula) &&
     (posterPelicula.endsWith("jpg") || posterPelicula.endsWith("jpeg")) &&
@@ -51,7 +54,7 @@ agregarPeliculas (
   "https://www.youtube.com/watch?v=fZ_JOBCLF-I"
   );
 
-
+//Reemplazar el bucle "for" original, por un "while" (Desafío 3)
 while (i < posterPeliculas.length){
    
   document.write(
